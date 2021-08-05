@@ -4,7 +4,10 @@ class Calc
     v1 + v2
   end
 
-  # {v1-v2}
+  def self.subtracao(v1,v2)
+    v1 - v2
+  end
+
   # {v1*v2}
   # {(v1/v2).ceil(2)}
 end

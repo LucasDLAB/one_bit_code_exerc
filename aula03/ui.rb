@@ -40,4 +40,8 @@ class Ui
   def print_soma
     Calc.soma(@v1, @v2)
   end
+
+  def print_subtracao
+    Calc.subtracao(@v1, @v2)
+  end
 end
