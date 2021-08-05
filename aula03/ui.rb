@@ -1,9 +1,14 @@
 class Ui
-  attr_accessor :v1, :v2
+  attr_reader :v1, :v2
 
   def intialize
     @v1 = 0
     @v2 = 0
+  end
+
+  def input_values
+    @v1 = print_value_text("primeiro")
+    @v2 = print_value_text("segundo")
   end
 
   def print_value_text(value)
