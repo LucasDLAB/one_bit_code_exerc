@@ -1,3 +1,5 @@
+require_relative 'calc'
+
 class Ui
   attr_reader :v1, :v2
 
@@ -33,5 +35,9 @@ class Ui
     puts "5 - Modificar valores"
     print "Opção: "
     gets.chomp.to_i
+  end
+
+  def print_soma
+    Calc.soma(@v1, @v2)
   end
 end

@@ -11,7 +11,7 @@ loop do
   
   case esc
   when 1
-    puts "A soma dos valores é igual à #{user_operation.v1+user_operation.v2}"
+    puts "A soma dos valores é igual à #{user_operation.print_soma}"
 
   when 2
     puts "A subtração entre os valore é igual à #{user_operation.v1-user_operation.v2}"
