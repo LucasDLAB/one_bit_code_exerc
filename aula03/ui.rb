@@ -44,4 +44,12 @@ class Ui
   def print_subtracao
     Calc.subtracao(@v1, @v2)
   end
+
+  def print_mult
+    Calc.multiplica(@v1, @v2)
+  end
+
+  def print_divisao
+    Calc.divisao(@v1, @v2)
+  end
 end
