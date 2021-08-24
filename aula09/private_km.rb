@@ -7,7 +7,7 @@ class Carro
 	private
 
 	def find_km(f)
-		/\d{2,}\w{2}\/\w/.match(f)
+		/\d{2}\w{2}\/\w/.match(f)
 	end
 end
 
